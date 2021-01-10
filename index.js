@@ -22,6 +22,7 @@ function startSnow() {
         sound.src = "./pog.mp3";
         document.body.appendChild(sound);
         sound.play();
+        sound.currentTime = 48;
     }
 }
 
